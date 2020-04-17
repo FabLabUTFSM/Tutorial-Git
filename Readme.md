@@ -33,7 +33,7 @@ Además de esto, cualquier persona puede inscribirse y ser hospedar un repositor
 - Respositorio: Un repositorio es un espacio centralizado donde se almacena, organiza, mantiene y difunde información digital, habitualmente archivos informáticos. [[2]](https://es.wikipedia.org/wiki/Repositorio). 
 - Branch: Cuando hablamos de ramificaciones, significa que tú has tomado la rama principal de desarrollo (master) y a partir de ahí has continuado trabajando sin seguir la rama principal de desarrollo. [[4]](https://git-scm.com/book/es/v2/Ramificaciones-en-Git-%C2%BFQu%C3%A9-es-una-rama%3F)
 
-<img src="Imagenes/branch.png"  > [[5]](https://www.nobledesktop.com/learn/git/git-branches)
+<img src="Imagenes/branch.png" width=400  > [[5]](https://www.nobledesktop.com/learn/git/git-branches)
 
 - Commit: Un "commit" es la acción de guardar una actualización de tus cambios, puede hacerse en el repositorio o de forma local. Siempre va acompañado de un mensaje. [[6]](https://codigofacilito.com/articulos/commits-administrar-tu-repositorio) 
 
@@ -43,7 +43,7 @@ Además de esto, cualquier persona puede inscribirse y ser hospedar un repositor
 
 ### Fases de trabajo en Git
 
-<img src="Imagenes/commit.png"  > [[7]](https://www.codepoc.io/blog/git/5287/git-quick-reference-guide)
+<img src="Imagenes/commit.png" width=400  > [[7]](https://www.codepoc.io/blog/git/5287/git-quick-reference-guide)
 
 
 #### Comandos clave
@@ -56,7 +56,7 @@ Además de esto, cualquier persona puede inscribirse y ser hospedar un repositor
 
 - git clone [dirección https del repositorio]: Toma un repositorio online, y lo clona en una dirección local. 
 
-<img src="Imagenes/clone.png"  >
+<img src="Imagenes/clone.png" width=400 >
 
 - git remote add origin [dirección https del repositorio]: En caso de que el Bash nos arroje como error la falta de un "origin", este comando solucionará nuestros problemas. 
 
