@@ -112,7 +112,7 @@ Changes not staged for commit:
 - git merge [nombre del branch]: Une el branch con el master. 
 
 
-
+## Git- Large File Storage 
 
 
 Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabajará con archivos 3D (por lo general los .stl superan este tamaño). Para trabajar con archivos más grandes existe [git large file storage - git-lfs](https://git-lfs.github.com/), en la siguiente imagen se muestra el workflow con el que trabaja git-lfs y git: 
@@ -152,7 +152,7 @@ Warning: LF will be replaced by CRLF
 
 ``` 
 **Importante**: Este comando funciona unicamente para usuarios de Windows haciendo proyectos UNICAMENTE en windows. [[10]](https://git-scm.com/book/it/v2/Customizing-Git-Git-Configuration)
-## Git- Large File Storage 
+
 
 
 - En caso de querer borrar un commit, o volver a atras: 
