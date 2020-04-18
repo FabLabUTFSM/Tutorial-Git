@@ -183,12 +183,12 @@ Warning: LF will be replaced by CRLF
     Author: josetomas <josetodf@gmail.com>
     Date:   Fri Apr 17 18:41:47 2020 -0400
     ```
- * git reset [número del commit - 02932175348a29f992e41c1a1f347a1d80947b15]: Retorno el repositorio al commit asociado a ese número, esto en caso de que hayamos cometido algun error. 
+  * git reset [número del commit - 02932175348a29f992e41c1a1f347a1d80947b15]: Retorno el repositorio al commit asociado a ese número, esto en caso de que hayamos cometido algun error. 
 
 
 - En caso de que tengamos problemas empujando desde el repositorio local al remoto, porque el origin no ha sido definido: 
   * git remote add origin [dirección https del repositorio]: En caso de que el Bash nos arroje como error la falta de un "origin", este comando solucionará nuestros problemas. 
 
- ```
- fatal 'origin' does not appear to be a git repository - fatal Could not read from remote repository.
- ```
+    ```
+    fatal 'origin' does not appear to be a git repository - fatal Could not read from remote repository.
+    ```
