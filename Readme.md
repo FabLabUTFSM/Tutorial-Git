@@ -59,7 +59,7 @@ Además de esto, cualquier persona puede inscribirse y ser hospedar un repositor
 <img src="Imagenes/commit.png" width=600  > [[7]](https://www.codepoc.io/blog/git/5287/git-quick-reference-guide)
 
 
-#### Comandos clave
+### Comandos clave
 
 - git config –global user.name “Example Name”: Configura el nombre de usuario de quien hace los commits. 
 
@@ -78,10 +78,74 @@ fatal 'origin' does not appear to be a git repository - fatal Could not read fro
 ```
 - git status: Nos muestra la etapa en la que se encuentran las modificaciones que hemos realizado. 
 
-- git add .: Pasa todos los archivos en los que estamos trabajado de unstage a stage. 
+```
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Imagenes/git-lfs.PNG
+        modified:   Readme.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Readme.md
+
+```
+
+- git add . : Pasa todos los archivos en los que estamos trabajado de unstage a stage, el punto es el que implica todos los archivos modificados cambien de estado.  
 
 - git add [Archivo]: Pasa solo un archivo de unstage a stage, el archivo debe ser especificado con nombre, extensión y ubicación. 
 
 - git commit -m "aqui explicamos que contiene este commit": Pasa nuestas modificaciones del staging area al local repo. 
 
-- git push origin master: Emp
+- git push origin [branch]: Empuja todos los cambios realizados por el usuario en su repositorio local, al repositorio remoto. 
+ 
+- git branch: Muestra todas las branch que existen en el repositorio. 
+
+- git branch [nombre del nuevo branch]: Crea una nueva branch en el repositorio. 
+
+- git checkout [nombre del branch]: Cambiamos de branch en la que estaremos trabajando. 
+
+- git merge [nombre del branch]: Une el branch con el master. 
+
+- git log: Muestra el historial de commits que existe en el repositorio. 
+
+```
+commit a42e20a975801752e342eb07d7f4fe9544d981e1 (HEAD -> master, origin/master, la)
+Author: josetomas <josetodf@gmail.com>
+Date:   Sat Apr 18 10:32:28 2020 -0400
+
+    avances
+
+commit 74f1c4923da436b66c4d0f02d0775c085cf8c06b
+Author: josetomas <josetodf@gmail.com>
+Date:   Sat Apr 18 10:31:07 2020 -0400
+
+    avances
+
+commit c598804aed439ff10233d50b0f13e71d5d6080aa
+Author: josetomas <josetodf@gmail.com>
+Date:   Sat Apr 18 10:30:21 2020 -0400
+
+    avances
+
+commit 02932175348a29f992e41c1a1f347a1d80947b15
+Author: josetomas <josetodf@gmail.com>
+Date:   Fri Apr 17 18:41:47 2020 -0400
+
+
+```
+
+- git reset [numero del commit - 02932175348a29f992e41c1a1f347a1d80947b15]: Retorno el repositorio al commit asociado a ese numero, esto en caso de que hayamos cometido algun error. 
+
+### Archivos de gran tamaño en Git
+
+Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabajará con archivos 3D (por lo general los .stl superan este tamaño). Para trabajar con archivos mas grandes existe [git large file storage - git-lfs](https://git-lfs.github.com/), en la siguiente imagen se muestra el workflow con el que trabaja git-lfs y git: 
+
+ <img src="Imagenes/git-lfs.PNG" width=600 >
+
+ #### Comandos claves de Git-Lfs
