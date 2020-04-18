@@ -299,9 +299,8 @@ Date:   Fri Apr 17 18:41:47 2020 -0400
 
 Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabajará con archivos 3D (por lo general los .stl superan este tamaño). Para trabajar con archivos mas grandes existe [git large file storage - git-lfs](https://git-lfs.github.com/), en la siguiente imagen se muestra el workflow con el que trabaja git-lfs y git: 
 
- <img src="Imagenes/git-lfs.PNG" width=600 > 
-[8](https://git-lfs.github.com/)
-[8]()
+<img src="Imagenes/git-lfs.PNG" width=600 > 
+ 
 [8](https://git-lfs.github.com/)
 
 ### Comandos claves
