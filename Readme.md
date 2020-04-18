@@ -10,6 +10,7 @@
     + [Definiciones](#definiciones)
     + [Fases de trabajo en Git](#fases-de-trabajo-en-git)
     + [Comandos clave](#comandos-clave)
+    + [Herramientas gráficas](#herramientas-graficas)
   * [Git- Large File Storage](#git--large-file-storage)
     + [Comandos claves](#comandos-claves)
   * [Markdown](#markdown)
@@ -110,6 +111,31 @@ Changes not staged for commit:
 - git checkout [nombre del branch]: Cambiamos de branch en la que estaremos trabajando. 
 
 - git merge [nombre del branch]: Une el branch con el master. 
+
+
+### Herramientas gráficas
+
+Si la línea de comandos no te acomoda, existen varias herramientas gráficas que nos permiten trabajar con git sin necesidad de utilizar comandos, y se encargan de gran parte de la administración del repositorio por nosotros. Cada una de estas herramientas tiene su propia curva de aprendizaje. Se listan algunas alternativas, cada una con un video-tutorial asociado para su manejo.
+
+Estas aplicaciones no requieren que ustedes tengan git instalados en sus computadores, ya que pueden instalar su propia versión, pero también pueden funcionar con la que tienen instaladas. Todas las opciones listadas están disponibles para Windows y Mac.
+
+#### SourceTree
+
+![SourceTree](Imagenes/sourcetree.png)
+
+La más completa y con la mayor cantidad de opciones para el manejo de repositorios git. Normalmente se asocia con BitBucket (un competidor de Github) pero puede administrar cualquier repositorio git sin importar dónde se hospede. [Video-tutorial de SourceTree](https://www.youtube.com/watch?v=QnkiKrruJiE)
+
+#### GitHub Desktop
+
+![GitHub Desktop](Imagenes/githubdesktop.png)
+
+Una aplicación que simplifica el uso de repositorios git, no tiene tantas opciones de configuración lo que puede hacer más sencilla la interacción. Diseñado para usarse con repositorios en GitHub ya que posee herramientas para enviar *pull requests* y otras cosas que son propias del sitio pero también puede administrar cualquier repositorio. [Video-tutorial de GitHub Desktop](https://www.youtube.com/watch?v=IW28zJc7BN0)
+
+#### GitKraken
+
+![GitKraken](Imagenes/gitkraken.png)
+
+Aplicación muy completa para el uso de git. Es una aplicación gratuita con algunas funciones no esenciales que se activan en la versión de pago. Tiene varias cosas interesantes que la hacen única como un gestor de tareas integrado, pero en general cubre todos los casos de uso propios de un administrador de repositorios y no está asociado a ningún servicio. [Video-tutorial de GitKraken](https://www.youtube.com/watch?v=z1CpcG-vs8U)
 
 
 ## Git- Large File Storage 
