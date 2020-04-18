@@ -18,7 +18,7 @@
 
 ## Instalar Git 
 
-Descargar el instalador de Git para su sistema operativo [aqui](https://git-scm.com/downloads)
+Descargar el instalador de Git para su sistema operativo [aquí](https://git-scm.com/downloads)
 
 Tutorial de como instalar Git [aqui](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). 
 
@@ -26,7 +26,7 @@ Tutorial de como instalar Git [aqui](https://git-scm.com/book/en/v2/Getting-Star
 
 ### Control de versiones
 
-Se llama control de versiones a la gestión de los diversos cambios que se realizan sobre los elementos de algún producto o una configuración del mismo. Una versión, revisión o edición de un producto, es el estado en el que se encuentra el mismo en un momento dado de su desarrollo o modificación. [[1]](https://es.wikipedia.org/wiki/Control_de_versiones)
+Se llama control de versiones a la gestión de los diversos cambios que se realizan sobre los elementos de algún producto o una configuración de este. Una versión, revisión o edición de un producto, es el estado en el que se encuentra el mismo en un momento dado de su desarrollo o modificación. [[1]](https://es.wikipedia.org/wiki/Control_de_versiones)
 
 ### Que es Git
 
@@ -47,14 +47,14 @@ Además de esto, cualquier persona puede inscribirse y ser hospedar un repositor
 
 ### Definiciones
 
-- Respositorio: Un repositorio es un espacio centralizado donde se almacena, organiza, mantiene y difunde información digital, habitualmente archivos informáticos. [[2]](https://es.wikipedia.org/wiki/Repositorio). 
+- Repositorio: Un repositorio es un espacio centralizado donde se almacena, organiza, mantiene y difunde información digital, habitualmente archivos informáticos. [[2]](https://es.wikipedia.org/wiki/Repositorio). 
 - Branch: Cuando hablamos de ramificaciones, significa que tú has tomado la rama principal de desarrollo (master) y a partir de ahí has continuado trabajando sin seguir la rama principal de desarrollo. [[4]](https://git-scm.com/book/es/v2/Ramificaciones-en-Git-%C2%BFQu%C3%A9-es-una-rama%3F)
 
 <img src="Imagenes/branch.png" width=600  > [[5]](https://www.nobledesktop.com/learn/git/git-branches)
 
 - Commit: Un "commit" es la acción de guardar una actualización de tus cambios, puede hacerse en el repositorio o de forma local. Siempre va acompañado de un mensaje. [[6]](https://codigofacilito.com/articulos/commits-administrar-tu-repositorio) 
 
-- Git Bash: Git Bash es una aplicación para Windows donde se emula la experiencia de una linea de comandos de Git.
+- Git Bash: Git Bash es una aplicación para Windows donde se emula la experiencia de una línea de comandos de Git.
 
 - Origin: Corresponde a la dirección remota en donde está almacenado el repositorio. 
 
@@ -104,7 +104,7 @@ Changes not staged for commit:
 
 - git add [Archivo]: Pasa solo un archivo de unstage a stage, el archivo debe ser especificado con nombre, extensión y ubicación. 
 
-- git commit -m "aqui explicamos que contiene este commit": Pasa nuestas modificaciones del staging area al local repo. 
+- git commit -m "aquí explicamos que contiene este commit": Pasa nuestras modificaciones del staging área al local repo. 
 
 - git push origin [branch]: Empuja todos los cambios realizados por el usuario en su repositorio local, al repositorio remoto. 
  
@@ -144,11 +144,11 @@ Date:   Fri Apr 17 18:41:47 2020 -0400
 
 ```
 
-- git reset [numero del commit - 02932175348a29f992e41c1a1f347a1d80947b15]: Retorno el repositorio al commit asociado a ese numero, esto en caso de que hayamos cometido algun error. 
+- git reset [número del commit - 02932175348a29f992e41c1a1f347a1d80947b15]: Retorno el repositorio al commit asociado a ese número, esto en caso de que hayamos cometido algun error. 
 
 ## Git- Large File Storage 
 
-Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabajará con archivos 3D (por lo general los .stl superan este tamaño). Para trabajar con archivos mas grandes existe [git large file storage - git-lfs](https://git-lfs.github.com/), en la siguiente imagen se muestra el workflow con el que trabaja git-lfs y git: 
+Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabajará con archivos 3D (por lo general los .stl superan este tamaño). Para trabajar con archivos más grandes existe [git large file storage - git-lfs](https://git-lfs.github.com/), en la siguiente imagen se muestra el workflow con el que trabaja git-lfs y git: 
 
 <img src="Imagenes/git-lfs.PNG" width=600 > 
  
@@ -158,7 +158,7 @@ Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabaj
 
 - git lfs install: Instala git-lfs. 
 
-- ```git lfs track "*.psd"```: Define que extension tendran los archivos que se alacenaran en git-lfs.
+- ```git lfs track "*.psd"```: Define que extensión tendrán los archivos que se almacenarán en git-lfs.
 
 - git add .gitattributes: Crea un archivo .gitattributes donde se detalla que extensiones iran a git-lfs. 
 
@@ -168,7 +168,7 @@ Markdown nació como herramienta de conversión de texto plano a HTML.
 
 Aunque en realidad Markdown también se considera un lenguaje que tiene la finalidad de permitir crear contenido de una manera sencilla de escribir, y que en todo momento mantenga un diseño legible, así que para simplificar puedes considerar Markdown como un método de escritura.
 
-De cara al usuario final no hay ninguna diferencia, por ejemplo este tutorial acerca de cómo funciona git está escrito en Markdown, y sin embargo ves que está perfectamente formateado [[9]](https://markdown.es/). 
+De cara al usuario final no hay ninguna diferencia, por ejemplo, este tutorial acerca de cómo funciona git está escrito en Markdown, y sin embargo ves que está perfectamente formateado [[9]](https://markdown.es/). 
 
 Markdown es muy semejante a [latex](https://www.latex-project.org/). 
 
