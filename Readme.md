@@ -30,7 +30,6 @@ Se llama control de versiones a la gestión de los diversos cambios que se reali
 Específicamente, Git es un sistema de control de versión distribuida, lo que quiere decir que la base del código entero y su historial se encuentran disponibles en la computadora de todo desarrollador, lo cual permite un fácil acceso a las bifurcaciones y fusiones.
 
 #### Github 
-[[2]](https://kinsta.com/es/base-de-conocimiento/que-es-github/)
 
 GitHub es una compañía sin fines de lucro que ofrece un servicio de hosting de repositorios almacenados en la nube. Esencialmente, hace que sea más fácil para individuos y equipos usar Git como la versión de control y colaboración.
 
@@ -38,7 +37,8 @@ La interfaz de GitHub es bastante fácil de usar para el desarrollador novato qu
 
 GitHub es tan fácil de usar, que incluso algunas personas usan GitHub para administrar otro tipo de proyectos – como escribir libros.
 
-Además de esto, cualquier persona puede inscribirse y ser hospedar un repositorio de código público completamente gratuito, el cual hace que GitHub sea especialmente popular con proyectos de fuente abierta.
+Además de esto, cualquier persona puede inscribirse y ser hospedar un repositorio de código público completamente gratuito, el cual hace que GitHub sea especialmente popular con proyectos de fuente abierta.[[2]](https://kinsta.com/es/base-de-conocimiento/que-es-github/)
+
 
 
 
@@ -85,4 +85,4 @@ fatal 'origin' does not appear to be a git repository - fatal Could not read fro
 
 - git commit -m "aqui explicamos que contiene este commit": Pasa nuestas modificaciones del staging area al local repo. 
 
-- 
+- git push origin master: Emp
