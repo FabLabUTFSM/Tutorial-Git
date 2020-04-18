@@ -1,16 +1,18 @@
 # Tutorial Git
 
-- [Instalar Git](#instalar-git)
-- [Git](#git)
-  * [Control de versiones](#control-de-versiones)
-  * [Que es Git](#que-es-git)
-    + [Github](#github)
-  * [Definiciones](#definiciones)
-  * [Fases de trabajo en Git](#fases-de-trabajo-en-git)
+- [Tutorial Git](#tutorial-git)
+  * [Instalar Git](#instalar-git)
+  * [Git](#git)
+    + [Control de versiones](#control-de-versiones)
+    + [Que es Git](#que-es-git)
+      - [Github](#github)
+    + [Definiciones](#definiciones)
+    + [Fases de trabajo en Git](#fases-de-trabajo-en-git)
     + [Comandos clave](#comandos-clave)
+    + [Archivos de gran tamaño en Git](#archivos-de-gran-tama-o-en-git)
+      - [Comandos claves de Git-Lfs](#comandos-claves-de-git-lfs)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 ## Instalar Git 
 
