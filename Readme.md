@@ -1,18 +1,30 @@
 # Tutorial Git
 
 
-- [Instalar Git](#instalar-git)
-- [Git](#git)
-   * [Control de versiones](#control-de-versiones)
-   * [Que es Git](#que-es-git)
-    +[Github](#github)
+- [Tutorial Git](#tutorial-git)
+  * [Instalar Git](#instalar-git)
+  * [Git](#git)
+    + [Control de versiones](#control-de-versiones)
+    + [Que es Git](#que-es-git)
+    + [Github](#github)
     + [Definiciones](#definiciones)
     + [Fases de trabajo en Git](#fases-de-trabajo-en-git)
     + [Comandos clave](#comandos-clave)
-- [Git-Lfs](#archivos-de-gran-tama-o-en-git)
-      - [Comandos claves de Git-Lfs](#comandos-claves-de-git-lfs)
+  * [Git- Large File Storage](#git--large-file-storage)
+    + [Comandos claves](#comandos-claves)
+  * [Instalar Git](#instalar-git-1)
+  * [Git](#git-1)
+    + [Control de versiones](#control-de-versiones-1)
+    + [Que es Git](#que-es-git-1)
+    + [Github](#github-1)
+    + [Definiciones](#definiciones-1)
+    + [Fases de trabajo en Git](#fases-de-trabajo-en-git-1)
+    + [Comandos clave](#comandos-clave-1)
+  * [Git- Large File Storage](#git--large-file-storage-1)
+    + [Comandos claves](#comandos-claves-1)
+  * [Markdown](#markdown)
+    + [Lista de enlaces con tutoriales o herramientas para Markdown](#lista-de-enlaces-con-tutoriales-o-herramientas-para-markdown)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## Instalar Git 
 
@@ -308,7 +320,7 @@ De cara al usuario final no hay ninguna diferencia, por ejemplo este tutorial ac
 
 Markdown es muy semejante a [latex](https://www.latex-project.org/). 
 
-### Lista de enlaces tutoriales para Markdown
+### Lista de enlaces con tutoriales o herramientas para Markdown
 
 - [Markdown.es](https://markdown.es/)
 - [Table of content](http://ecotrust-canada.github.io/markdown-toc/)
