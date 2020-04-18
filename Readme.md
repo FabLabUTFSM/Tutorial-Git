@@ -10,7 +10,7 @@
     + [Definiciones](#definiciones)
     + [Fases de trabajo en Git](#fases-de-trabajo-en-git)
     + [Comandos clave](#comandos-clave)
-    + [Herramientas gráficas](#herramientas-graficas)
+    + [Herramientas gráficas](#herramientas-gráficas)
   * [Git- Large File Storage](#git--large-file-storage)
     + [Comandos claves](#comandos-claves)
   * [Markdown](#markdown)
