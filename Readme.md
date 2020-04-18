@@ -14,7 +14,7 @@
     + [Comandos claves](#comandos-claves)
   * [Markdown](#markdown)
     + [Lista de enlaces con tutoriales o herramientas para Markdown](#lista-de-enlaces-con-tutoriales-o-herramientas-para-markdown)
-
+  * [Troubleshooting](#torubleshooting)  
 
 ## Instalar Git 
 
@@ -75,11 +75,6 @@ Además de esto, cualquier persona puede inscribirse y ser hospedar un repositor
 
 <img src="Imagenes/clone.png" width=600 >
 
-- git remote add origin [dirección https del repositorio]: En caso de que el Bash nos arroje como error la falta de un "origin", este comando solucionará nuestros problemas. 
-
-```
-fatal 'origin' does not appear to be a git repository - fatal Could not read from remote repository.
-```
 - git status: Nos muestra la etapa en la que se encuentran las modificaciones que hemos realizado. 
 
 ```
@@ -116,43 +111,9 @@ Changes not staged for commit:
 
 - git merge [nombre del branch]: Une el branch con el master. 
 
-- git log: Muestra el historial de commits que existe en el repositorio. 
-
-```
-commit a42e20a975801752e342eb07d7f4fe9544d981e1 (HEAD -> master, origin/master, la)
-Author: josetomas <josetodf@gmail.com>
-Date:   Sat Apr 18 10:32:28 2020 -0400
-
-    avances
-
-commit 74f1c4923da436b66c4d0f02d0775c085cf8c06b
-Author: josetomas <josetodf@gmail.com>
-Date:   Sat Apr 18 10:31:07 2020 -0400
-
-    avances
-
-commit c598804aed439ff10233d50b0f13e71d5d6080aa
-Author: josetomas <josetodf@gmail.com>
-Date:   Sat Apr 18 10:30:21 2020 -0400
-
-    avances
-
-commit 02932175348a29f992e41c1a1f347a1d80947b15
-Author: josetomas <josetodf@gmail.com>
-Date:   Fri Apr 17 18:41:47 2020 -0400
 
 
-```
 
-- git reset [número del commit - 02932175348a29f992e41c1a1f347a1d80947b15]: Retorno el repositorio al commit asociado a ese número, esto en caso de que hayamos cometido algun error. 
-
-- git config --global core.autocrlf false: Distintas plataformas o sistemas operaticos utilizan CRLF o LF como cambio de linea, este comando nos servirá en caso de que aparesca el siguiente error: 
-```
-Warining: LF will be replaced by CRLF
-
-``` 
-**Importante**: Este comando funciona unicamente para usuarios de Windows haciendo proyectos UNICAMENTE en windows. [[10]](https://git-scm.com/book/it/v2/Customizing-Git-Git-Configuration)
-## Git- Large File Storage 
 
 Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabajará con archivos 3D (por lo general los .stl superan este tamaño). Para trabajar con archivos más grandes existe [git large file storage - git-lfs](https://git-lfs.github.com/), en la siguiente imagen se muestra el workflow con el que trabaja git-lfs y git: 
 
@@ -182,3 +143,54 @@ Markdown es muy semejante a [latex](https://www.latex-project.org/).
 
 - [Markdown.es](https://markdown.es/)
 - [Table of content](http://ecotrust-canada.github.io/markdown-toc/)
+
+## Troubleshooting
+
+- git config --global core.autocrlf false: Distintas plataformas o sistemas operaticos utilizan CRLF o LF como cambio de linea, este comando nos servirá en caso de que aparesca el siguiente error: 
+```
+Warning: LF will be replaced by CRLF
+
+``` 
+**Importante**: Este comando funciona unicamente para usuarios de Windows haciendo proyectos UNICAMENTE en windows. [[10]](https://git-scm.com/book/it/v2/Customizing-Git-Git-Configuration)
+## Git- Large File Storage 
+
+
+- En caso de querer borrar un commit, o volver a atras: 
+
+ * git log: Muestra el historial de commits que existe en el repositorio. 
+
+ ```
+ commit a42e20a975801752e342eb07d7f4fe9544d981e1 (HEAD -> master, origin/master, la)
+ Author: josetomas <josetodf@gmail.com>
+ Date:   Sat Apr 18 10:32:28 2020 -0400
+
+    avances
+
+ commit 74f1c4923da436b66c4d0f02d0775c085cf8c06b
+ Author: josetomas <josetodf@gmail.com>
+ Date:   Sat Apr 18 10:31:07 2020 -0400
+
+    avances
+
+ commit c598804aed439ff10233d50b0f13e71d5d6080aa
+ Author: josetomas <josetodf@gmail.com>
+ Date:   Sat Apr 18 10:30:21 2020 -0400
+
+    avances
+
+ commit 02932175348a29f992e41c1a1f347a1d80947b15
+ Author: josetomas <josetodf@gmail.com>
+ Date:   Fri Apr 17 18:41:47 2020 -0400
+
+
+ ```
+
+ * git reset [número del commit - 02932175348a29f992e41c1a1f347a1d80947b15]: Retorno el repositorio al commit asociado a ese número, esto en caso de que hayamos cometido algun error. 
+
+- En caso de que tengamos problemas empujando desde el repositorio local al remoto, porque el origin no ha sido definido: 
+
+ * git remote add origin [dirección https del repositorio]: En caso de que el Bash nos arroje como error la falta de un "origin", este comando solucionará nuestros problemas. 
+
+ ```
+ fatal 'origin' does not appear to be a git repository - fatal Could not read from remote repository.
+ ```
