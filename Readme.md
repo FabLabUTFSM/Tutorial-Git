@@ -158,7 +158,8 @@ Warning: LF will be replaced by CRLF
 
 - En caso de querer borrar un commit, o volver a atras: 
 
-  * git log: Muestra el historial de commits que existe en el repositorio. 
+  * git log: Muestra el historial de commits que existe en el repositorio:
+  
   ```
   commit a42e20a975801752e342eb07d7f4fe9544d981e1 (HEAD -> master, origin/master, la)
   Author: josetomas <josetodf@gmail.com>
