@@ -146,6 +146,12 @@ Date:   Fri Apr 17 18:41:47 2020 -0400
 
 - git reset [número del commit - 02932175348a29f992e41c1a1f347a1d80947b15]: Retorno el repositorio al commit asociado a ese número, esto en caso de que hayamos cometido algun error. 
 
+- git config --global core.autocrlf false: Distintas plataformas o sistemas operaticos utilizan CRLF o LF como cambio de linea, este comando nos servirá en caso de que aparesca el siguiente error: 
+```
+Warining: LF will be replaced by CRLF
+
+``` 
+**Importante**: Este comando funciona unicamente para usuarios de Windows haciendo proyectos UNICAMENTE en windows. [[10]](https://git-scm.com/book/it/v2/Customizing-Git-Git-Configuration)
 ## Git- Large File Storage 
 
 Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabajará con archivos 3D (por lo general los .stl superan este tamaño). Para trabajar con archivos más grandes existe [git large file storage - git-lfs](https://git-lfs.github.com/), en la siguiente imagen se muestra el workflow con el que trabaja git-lfs y git: 
