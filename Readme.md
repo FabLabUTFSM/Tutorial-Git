@@ -287,7 +287,8 @@ Date:   Fri Apr 17 18:41:47 2020 -0400
 
 Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabajará con archivos 3D (por lo general los .stl superan este tamaño). Para trabajar con archivos mas grandes existe [git large file storage - git-lfs](https://git-lfs.github.com/), en la siguiente imagen se muestra el workflow con el que trabaja git-lfs y git: 
 
- <img src="Imagenes/git-lfs.PNG" width=600 >
+ <img src="Imagenes/git-lfs.PNG" width=600 > 
+ [[8]](https://git-lfs.github.com/)
 
 ### Comandos claves
 
@@ -297,3 +298,17 @@ Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabaj
 
 - git add .gitattributes: Crea un archivo .gitattributes donde se detalla que extensiones iran a git-lfs. 
 
+## Markdown
+
+Markdown nació como herramienta de conversión de texto plano a HTML.
+
+Aunque en realidad Markdown también se considera un lenguaje que tiene la finalidad de permitir crear contenido de una manera sencilla de escribir, y que en todo momento mantenga un diseño legible, así que para simplificar puedes considerar Markdown como un método de escritura.
+
+De cara al usuario final no hay ninguna diferencia, por ejemplo este tutorial acerca de cómo funciona git está escrito en Markdown, y sin embargo ves que está perfectamente formateado [[9]]https://markdown.es/). 
+
+Markdown es muy semejante a [latex](https://www.latex-project.org/). 
+
+### Lista de enlaces tutoriales para Markdown
+
+- [Markdown.es](https://markdown.es/)
+- [Table of content](http://ecotrust-canada.github.io/markdown-toc/)
