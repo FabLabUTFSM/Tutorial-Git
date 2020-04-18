@@ -189,7 +189,7 @@ Warning: LF will be replaced by CRLF
 
 
 - En caso de que tengamos problemas empujando desde el repositorio local al remoto, porque el origin no ha sido definido: 
- * git remote add origin [dirección https del repositorio]: En caso de que el Bash nos arroje como error la falta de un "origin", este comando solucionará nuestros problemas. 
+  * git remote add origin [dirección https del repositorio]: En caso de que el Bash nos arroje como error la falta de un "origin", este comando solucionará nuestros problemas. 
 
  ```
  fatal 'origin' does not appear to be a git repository - fatal Could not read from remote repository.
