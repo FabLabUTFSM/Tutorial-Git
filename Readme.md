@@ -159,7 +159,7 @@ Warning: LF will be replaced by CRLF
 - En caso de querer borrar un commit, o volver a atras: 
 
   * git log: Muestra el historial de commits que existe en el repositorio:
-  
+
   ```
   commit a42e20a975801752e342eb07d7f4fe9544d981e1 (HEAD -> master, origin/master, la)
   Author: josetomas <josetodf@gmail.com>
@@ -189,7 +189,6 @@ Warning: LF will be replaced by CRLF
 
 
 - En caso de que tengamos problemas empujando desde el repositorio local al remoto, porque el origin no ha sido definido: 
-
  * git remote add origin [dirección https del repositorio]: En caso de que el Bash nos arroje como error la falta de un "origin", este comando solucionará nuestros problemas. 
 
  ```
