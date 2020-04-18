@@ -1,9 +1,6 @@
 # Tutorial Git
 
 
-# Tutorial Git
-
-
 - [Instalar Git](#instalar-git)
 - [Git](#git)
    * [Control de versiones](#control-de-versiones)
@@ -292,4 +289,11 @@ Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabaj
 
  <img src="Imagenes/git-lfs.PNG" width=600 >
 
- ### Comandos claves
+### Comandos claves
+
+- git lfs install: Instala git-lfs. 
+
+- ```git lfs track "*.psd"```: Define que extension tendran los archivos que se alacenaran en git-lfs.
+
+- git add .gitattributes: Crea un archivo .gitattributes donde se detalla que extensiones iran a git-lfs. 
+
