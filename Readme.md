@@ -159,31 +159,31 @@ Warning: LF will be replaced by CRLF
 - En caso de querer borrar un commit, o volver a atras: 
 
   * git log: Muestra el historial de commits que existe en el repositorio. 
- ```
- commit a42e20a975801752e342eb07d7f4fe9544d981e1 (HEAD -> master, origin/master, la)
- Author: josetomas <josetodf@gmail.com>
- Date:   Sat Apr 18 10:32:28 2020 -0400
+  ```
+  commit a42e20a975801752e342eb07d7f4fe9544d981e1 (HEAD -> master, origin/master, la)
+  Author: josetomas <josetodf@gmail.com>
+  Date:   Sat Apr 18 10:32:28 2020 -0400
 
     avances
 
- commit 74f1c4923da436b66c4d0f02d0775c085cf8c06b
- Author: josetomas <josetodf@gmail.com>
- Date:   Sat Apr 18 10:31:07 2020 -0400
+  commit 74f1c4923da436b66c4d0f02d0775c085cf8c06b
+  Author: josetomas <josetodf@gmail.com>
+  Date:   Sat Apr 18 10:31:07 2020 -0400
 
     avances
 
- commit c598804aed439ff10233d50b0f13e71d5d6080aa
- Author: josetomas <josetodf@gmail.com>
- Date:   Sat Apr 18 10:30:21 2020 -0400
+  commit c598804aed439ff10233d50b0f13e71d5d6080aa
+  Author: josetomas <josetodf@gmail.com>
+  Date:   Sat Apr 18 10:30:21 2020 -0400
 
     avances
 
- commit 02932175348a29f992e41c1a1f347a1d80947b15
- Author: josetomas <josetodf@gmail.com>
- Date:   Fri Apr 17 18:41:47 2020 -0400
+  commit 02932175348a29f992e41c1a1f347a1d80947b15
+  Author: josetomas <josetodf@gmail.com>
+  Date:   Fri Apr 17 18:41:47 2020 -0400
 
 
- ```
+  ```
  * git reset [número del commit - 02932175348a29f992e41c1a1f347a1d80947b15]: Retorno el repositorio al commit asociado a ese número, esto en caso de que hayamos cometido algun error. 
 
 
