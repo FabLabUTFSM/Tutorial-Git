@@ -159,7 +159,6 @@ Warning: LF will be replaced by CRLF
 - En caso de querer borrar un commit, o volver a atras: 
 
   * git log: Muestra el historial de commits que existe en el repositorio. 
-  * git reset [número del commit - 02932175348a29f992e41c1a1f347a1d80947b15]: Retorno el repositorio al commit asociado a ese número, esto en caso de que hayamos cometido algun error. 
  ```
  commit a42e20a975801752e342eb07d7f4fe9544d981e1 (HEAD -> master, origin/master, la)
  Author: josetomas <josetodf@gmail.com>
@@ -185,6 +184,7 @@ Warning: LF will be replaced by CRLF
 
 
  ```
+ * git reset [número del commit - 02932175348a29f992e41c1a1f347a1d80947b15]: Retorno el repositorio al commit asociado a ese número, esto en caso de que hayamos cometido algun error. 
 
 
 - En caso de que tengamos problemas empujando desde el repositorio local al remoto, porque el origin no ha sido definido: 
