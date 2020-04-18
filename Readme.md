@@ -1,14 +1,13 @@
 # Tutorial Git
 
-- [Tutorial Git](#tutorial-git)
-  * [Instalar Git](#instalar-git)
-  * [Git](#git)
-    + [Control de versiones](#control-de-versiones)
-    + [Que es Git](#que-es-git)
-      - [Github [[2]](https://kinsta.com/es/base-de-conocimiento/que-es-github/)](#github---2---https---kinstacom-es-base-de-conocimiento-que-es-github--)
-    + [Definiciones](#definiciones)
-    + [Fases de trabajo en Git](#fases-de-trabajo-en-git)
-      - [Comandos clave](#comandos-clave)
+- [Instalar Git](#instalar-git)
+- [Git](#git)
+  * [Control de versiones](#control-de-versiones)
+  * [Que es Git](#que-es-git)
+    + [Github](#github)
+  * [Definiciones](#definiciones)
+  * [Fases de trabajo en Git](#fases-de-trabajo-en-git)
+    + [Comandos clave](#comandos-clave)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
