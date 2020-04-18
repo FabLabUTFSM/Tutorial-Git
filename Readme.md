@@ -301,7 +301,7 @@ Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabaj
 
 <img src="Imagenes/git-lfs.PNG" width=600 > 
  
-[8](https://git-lfs.github.com/)
+[[8]](https://git-lfs.github.com/)
 
 ### Comandos claves
 
