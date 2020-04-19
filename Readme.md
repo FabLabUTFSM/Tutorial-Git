@@ -140,7 +140,7 @@ Warning: LF will be replaced by CRLF
   * ```git log```: Muestra el historial de commits que existe en el repositorio:
 
 ```
-commit a42e20a975801752e342eb07d7f4fe9544d981e1 (HEAD -> master, origin/master, la)
+    commit a42e20a975801752e342eb07d7f4fe9544d981e1 (HEAD -> master, origin/master, la)
     Author: josetomas <josetodf@gmail.com>
     Date:   Sat Apr 18 10:32:28 2020 -0400
 
@@ -202,8 +202,8 @@ Markdown es muy semejante a [latex](https://www.latex-project.org/).
 
 ## Trabajar en un proyecto
 1) Si deseas colaborar en algún proyecto, el primer paso es dirigirte a su repositorio de GitHub. 
-2) Luego debes clonarlo, de esta forma podrás trabajar con él. 
-3) Una vez realizados todos los cambios y haber guardado el/los archivo/s, realiza un commit. Si es desde Git, recuerda añadirlo/s primero; si es desde GitHub Desktop, éste lo hará automáticamente.
+2) Luego debes clonarlo, de esta forma podrás trabajar con él. Si estás en GitHub Desktop, debes pegar la URL en File->Clone repository.
+3) Edita los archivos. Una vez realizados todos los cambios y haber guardado el/los archivo/s, realiza un commit. Si es desde Git, recuerda añadirlo/s primero; si es desde GitHub Desktop, los añadirá automáticamente.
 4) Haz push de los cambios. Habrás actualizado los archivos.
 5) Finalmente, dirígete de nuevo al repositorio del proyecto que quieres colaborar y presiona Pull Request.
 
