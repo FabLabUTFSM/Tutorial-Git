@@ -74,23 +74,23 @@ Git Bash (opcional): Aplicación para Windows donde se emula la experiencia de u
 
 - ```git status```: Nos muestra la etapa en la que se encuentran las modificaciones que hemos realizado. 
 
-```
-On branch master
-Your branch is up to date with 'origin/master'.
-
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-        new file:   Imagenes/git-lfs.PNG
-        modified:   Readme.md
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-        modified:   Readme.md
-
-```
+    ```
+    On branch master
+    Your branch is up to date with 'origin/master'.
+    
+    Changes to be committed:
+      (use "git reset HEAD <file>..." to unstage)
+    
+            new file:   Imagenes/git-lfs.PNG
+            modified:   Readme.md
+    
+    Changes not staged for commit:
+      (use "git add <file>..." to update what will be committed)
+      (use "git checkout -- <file>..." to discard changes in working directory)
+    
+            modified:   Readme.md
+    
+    ```
 
 - ```git add [Archivo]```: Pasa solo un archivo de unstage a stage, el archivo debe ser especificado con nombre, extensión y ubicación. 
 
