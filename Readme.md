@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Tutorial Git
 
 
