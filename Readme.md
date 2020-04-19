@@ -2,39 +2,44 @@
 
 
 - [Tutorial Git](#tutorial-git)
-  * [Instalar Git](#instalar-git)
+  * [Definiciones](#definiciones)
   * [Git](#git)
-    + [Control de versiones](#control-de-versiones)
-    + [Que es Git](#que-es-git)
+    + [Qué es Git](#que-es-git)
     + [Github](#github)
-    + [Definiciones](#definiciones)
+    + [Instalar Git](#instalar-git)
     + [Fases de trabajo en Git](#fases-de-trabajo-en-git)
     + [Comandos clave](#comandos-clave)
   * [Git- Large File Storage](#git--large-file-storage)
     + [Comandos claves](#comandos-claves)
+  * [Troubleshooting](#troubleshooting)  
+  * [GitHub Desktop](#github-desktop)
+  	+ [Qué es GitHub Desktop](#que-es-github-desktop)
+  	+ [Instalar GitHub Desktop](#instalar-github-desktop)
   * [Markdown](#markdown)
     + [Lista de enlaces con tutoriales o herramientas para Markdown](#lista-de-enlaces-con-tutoriales-o-herramientas-para-markdown)
-  * [Troubleshooting](#Troubleshooting)  
+  * [Trabajar en un proyecto](#trabajar-en-un-proyecto)
 
-## Instalar Git 
+## Definiciones
 
-Descargar el instalador de Git para su sistema operativo [aquí](https://git-scm.com/downloads)
+- Control de versiones: Gestión de los diversos cambios que se realizan sobre los elementos de algún producto o una configuración del mismo. Una versión, revisión o edición de un producto, es el estado en el que se encuentra el mismo en un momento dado de su desarrollo o modificación. [[1]](https://es.wikipedia.org/wiki/Control_de_versiones)
+- Repositorio: Espacio centralizado donde se almacena, organiza, mantiene y difunde información digital, habitualmente archivos informáticos. [[2]](https://es.wikipedia.org/wiki/Repositorio). 
+- Origin: Corresponde a la dirección remota en donde está almacenado el repositorio. 
+- Branch: Cuando hablamos de ramificaciones, significa que tú has tomado la rama principal de desarrollo (master) de un repositorio y a partir de ahí has continuado trabajando de forma independiente. [[4]](https://git-scm.com/book/es/v2/Ramificaciones-en-Git-%C2%BFQu%C3%A9-es-una-rama%3F)
 
-Tutorial de como instalar Git [aqui](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). 
+<img src="Imagenes/branch.png" width=600  > [[5]](https://www.nobledesktop.com/learn/git/git-branches)
+
+- Commit: Un "commit" es la acción de guardar una actualización de tus cambios. Siempre va acompañado de un mensaje. [[6]](https://codigofacilito.com/articulos/commits-administrar-tu-repositorio) 
+- Push: Acción de subir los cambios guardados al repositorio en la nube.
 
 ## Git
 
-### Control de versiones
+### Qué es Git
 
-Se llama control de versiones a la gestión de los diversos cambios que se realizan sobre los elementos de algún producto o una configuración de este. Una versión, revisión o edición de un producto, es el estado en el que se encuentra el mismo en un momento dado de su desarrollo o modificación. [[1]](https://es.wikipedia.org/wiki/Control_de_versiones)
-
-### Que es Git
-
-Específicamente, Git es un sistema de control de versión distribuida, lo que quiere decir que la base del código entero y su historial se encuentran disponibles en la computadora de todo desarrollador, lo cual permite un fácil acceso a las bifurcaciones y fusiones.
+Git es un sistema de control de versión distribuida, lo que quiere decir que el código completo de un producto y su historial se encuentran disponibles en la computadora de todo desarrollador, permitiendo un fácil acceso a las bifurcaciones y fusiones del proyecto.
 
 ### Github 
 
-GitHub es una compañía sin fines de lucro que ofrece un servicio de hosting de repositorios almacenados en la nube. Esencialmente, hace que sea más fácil para individuos y equipos usar Git como la versión de control y colaboración.
+GitHub es una compañía sin fines de lucro que ofrece un servicio de hosting de repositorios almacenados en la nube.
 
 La interfaz de GitHub es bastante fácil de usar para el desarrollador novato que quiera aprovechar las ventajas del Git. Sin GitHub, usar un Git generalmente requiere de un poco más de conocimientos de tecnología y uso de una línea de comando.
 
@@ -42,21 +47,13 @@ GitHub es tan fácil de usar, que incluso algunas personas usan GitHub para admi
 
 Además de esto, cualquier persona puede inscribirse y ser hospedar un repositorio de código público completamente gratuito, el cual hace que GitHub sea especialmente popular con proyectos de fuente abierta.[[2]](https://kinsta.com/es/base-de-conocimiento/que-es-github/)
 
+### Instalar Git 
 
+Descargar el instalador de Git para su sistema operativo [aquí](https://git-scm.com/downloads)
 
+Tutorial de como instalar Git [aqui](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). 
 
-### Definiciones
-
-- Repositorio: Un repositorio es un espacio centralizado donde se almacena, organiza, mantiene y difunde información digital, habitualmente archivos informáticos. [[2]](https://es.wikipedia.org/wiki/Repositorio). 
-- Branch: Cuando hablamos de ramificaciones, significa que tú has tomado la rama principal de desarrollo (master) y a partir de ahí has continuado trabajando sin seguir la rama principal de desarrollo. [[4]](https://git-scm.com/book/es/v2/Ramificaciones-en-Git-%C2%BFQu%C3%A9-es-una-rama%3F)
-
-<img src="Imagenes/branch.png" width=600  > [[5]](https://www.nobledesktop.com/learn/git/git-branches)
-
-- Commit: Un "commit" es la acción de guardar una actualización de tus cambios, puede hacerse en el repositorio o de forma local. Siempre va acompañado de un mensaje. [[6]](https://codigofacilito.com/articulos/commits-administrar-tu-repositorio) 
-
-- Git Bash: Git Bash es una aplicación para Windows donde se emula la experiencia de una línea de comandos de Git.
-
-- Origin: Corresponde a la dirección remota en donde está almacenado el repositorio. 
+Git Bash (opcional): Aplicación para Windows donde se emula la experiencia de una línea de comandos de Git.
 
 ### Fases de trabajo en Git
 
@@ -65,17 +62,17 @@ Además de esto, cualquier persona puede inscribirse y ser hospedar un repositor
 
 ### Comandos clave
 
-- git config –global user.name “Example Name”: Configura el nombre de usuario de quien hace los commits. 
+- ```git config –global user.name “Juan”```: Configura el nombre de usuario de quien hace los commits. En este caso, Juan.
 
-- git config –global user.email “email@example.com”: Configura la dirección email de quien hace los commits. 
+- ```git config –global user.email “juanperez@gmail.com”```: Configura la dirección email de quien hace los commits. En este caso, juanperez@gmail.com.
 
-- git init: Inicia git en la carpeta en la que vamos a trabajar.
+- ```git init```: Inicia git en la carpeta en la que vamos a trabajar.
 
-- git clone [dirección https del repositorio]: Toma un repositorio online, y lo clona en una dirección local. 
+- ```git clone [dirección https del repositorio]```: Toma un repositorio online (de GitHub por ejemplo), y lo clona en una carpeta local.
 
 <img src="Imagenes/clone.png" width=600 >
 
-- git status: Nos muestra la etapa en la que se encuentran las modificaciones que hemos realizado. 
+- ```git status```: Nos muestra la etapa en la que se encuentran las modificaciones que hemos realizado. 
 
 ```
 On branch master
@@ -95,25 +92,24 @@ Changes not staged for commit:
 
 ```
 
-- git add . : Pasa todos los archivos en los que estamos trabajado de unstage a stage, el punto es el que implica todos los archivos modificados cambien de estado.  
+- ```git add [Archivo]```: Pasa solo un archivo de unstage a stage, el archivo debe ser especificado con nombre, extensión y ubicación. 
 
-- git add [Archivo]: Pasa solo un archivo de unstage a stage, el archivo debe ser especificado con nombre, extensión y ubicación. 
+- ```git add .```  : Pasa todos los archivos en los que estamos trabajando de unstage a stage.  
 
-- git commit -m "aquí explicamos que contiene este commit": Pasa nuestras modificaciones del staging área al local repo. 
+- ```git commit -m "breve descripción"```: Pasa nuestras modificaciones del staging área al local repo. Debemos describir brevemente los cambios realizados. 
 
-- git push origin [branch]: Empuja todos los cambios realizados por el usuario en su repositorio local, al repositorio remoto. 
+- ```git push origin [branch]```: Envía todos los cambios realizados en su repositorio local al repositorio remoto. 
  
-- git branch: Muestra todas las branch que existen en el repositorio. 
+- ```git branch```: Muestra todas las branch que existen en el repositorio. 
 
-- git branch [nombre del nuevo branch]: Crea una nueva branch en el repositorio. 
+- ```git branch [nombre del nuevo branch]```: Crea una nueva branch en el repositorio. 
 
-- git checkout [nombre del branch]: Cambiamos de branch en la que estaremos trabajando. 
+- ```git checkout [nombre del branch]```: Cambiamos de branch en la que estaremos trabajando. 
 
-- git merge [nombre del branch]: Une el branch con el master. 
+- ```git merge [nombre del branch]```: Une el branch con el master. 
 
 
 ## Git- Large File Storage 
-
 
 Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabajará con archivos 3D (por lo general los .stl superan este tamaño). Para trabajar con archivos más grandes existe [git large file storage - git-lfs](https://git-lfs.github.com/), en la siguiente imagen se muestra el workflow con el que trabaja git-lfs y git: 
 
@@ -123,45 +119,28 @@ Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabaj
 
 ### Comandos claves
 
-- git lfs install: Instala git-lfs. 
+- ```git lfs install```: Instala git-lfs. 
 
-- ```git lfs track "*.psd"```: Define que extensión tendrán los archivos que se almacenarán en git-lfs.
+- ```git lfs track "*.psd"```: Define qué extensión tendrán los archivos que se almacenarán en git-lfs.
 
-- git add .gitattributes: Crea un archivo .gitattributes donde se detalla que extensiones iran a git-lfs. 
-
-## Markdown
-
-Markdown nació como herramienta de conversión de texto plano a HTML.
-
-Aunque en realidad Markdown también se considera un lenguaje que tiene la finalidad de permitir crear contenido de una manera sencilla de escribir, y que en todo momento mantenga un diseño legible, así que para simplificar puedes considerar Markdown como un método de escritura.
-
-De cara al usuario final no hay ninguna diferencia, por ejemplo, este tutorial acerca de cómo funciona git está escrito en Markdown, y sin embargo ves que está perfectamente formateado [[9]](https://markdown.es/). 
-
-Markdown es muy semejante a [latex](https://www.latex-project.org/). 
-
-### Lista de enlaces con tutoriales o herramientas para Markdown
-
-- [Markdown.es](https://markdown.es/)
-- [Table of content](http://ecotrust-canada.github.io/markdown-toc/)
+- ```git add .gitattributes```: Crea un archivo .gitattributes donde se detalla que extensiones iran a git-lfs. 
 
 ## Troubleshooting
-- En caso de estar trabajando en distintas plataformas, Git puede presentar problemas con el comando asignado al cambio de lineas: 
+- **En caso de estar trabajando en distintas plataformas, Git puede presentar problemas con el comando asignado al cambio de lineas:**
 
-  * git config --global core.autocrlf false: Distintas plataformas o sistemas operaticos utilizan CRLF o LF como cambio de linea, este comando nos servirá en caso de que aparesca el siguiente error: 
+  * ```git config --global core.autocrlf false```: Distintas plataformas o sistemas operaticos utilizan CRLF o LF como cambio de linea, este comando nos servirá en caso de que aparesca el siguiente error: 
 ```
 Warning: LF will be replaced by CRLF
 
 ``` 
   **Importante**: Este comando funciona unicamente para usuarios de Windows haciendo proyectos UNICAMENTE en windows. [[10]](https://git-scm.com/book/it/v2/Customizing-Git-Git-Configuration)
 
+- **En caso de querer borrar un commit, o volver a atras:**
 
+  * ```git log```: Muestra el historial de commits que existe en el repositorio:
 
-- En caso de querer borrar un commit, o volver a atras: 
-
-  * git log: Muestra el historial de commits que existe en el repositorio:
-
-    ```
-    commit a42e20a975801752e342eb07d7f4fe9544d981e1 (HEAD -> master, origin/master, la)
+```
+commit a42e20a975801752e342eb07d7f4fe9544d981e1 (HEAD -> master, origin/master, la)
     Author: josetomas <josetodf@gmail.com>
     Date:   Sat Apr 18 10:32:28 2020 -0400
 
@@ -182,13 +161,50 @@ Warning: LF will be replaced by CRLF
     commit 02932175348a29f992e41c1a1f347a1d80947b15
     Author: josetomas <josetodf@gmail.com>
     Date:   Fri Apr 17 18:41:47 2020 -0400
-    ```
-  * git reset [número del commit - 02932175348a29f992e41c1a1f347a1d80947b15]: Retorno el repositorio al commit asociado a ese número, esto en caso de que hayamos cometido algun error. 
+```
+
+  * ```git reset [número del commit - 02932175348a29f992e41c1a1f347a1d80947b15]```: Retorno el repositorio al commit asociado a ese número, esto en caso de que hayamos cometido algun error. 
 
 
-- En caso de que tengamos problemas empujando desde el repositorio local al remoto, porque el origin no ha sido definido: 
-  * git remote add origin [dirección https del repositorio]: En caso de que el Bash nos arroje como error la falta de un "origin", este comando solucionará nuestros problemas. 
+- **En caso de que tengamos problemas empujando desde el repositorio local al remoto, porque el origin no ha sido definido:**
+
+  * ```git remote add origin [dirección https del repositorio]```: En caso de que el Bash nos arroje como error la falta de un "origin", este comando solucionará nuestros problemas:
 
     ```
     fatal 'origin' does not appear to be a git repository - fatal Could not read from remote repository.
     ```
+    
+## GitHub Desktop
+
+### Qué es GItHub Desktop
+
+GitHub Desktop es una aplicación muy útil para personas que están comenzando a conocer Git y GIthub, pues libera al usuario de todas las lineas de comando y procesos complejos; y en su reemplazo, nos brinda una cómoda interfaz para actualizar nuestros repositorios en la nube con unos cuantos clics.
+
+### Instalar GitHub Desktop
+
+Para Windows y MacOS [aquí](https://desktop.github.com/)
+Para Linux [aquí](https://github.com/shiftkey/desktop/releases/)
+
+## Markdown
+
+Markdown nació como herramienta de conversión de texto plano a HTML.
+
+También se considera un lenguaje que tiene la finalidad de permitir crear contenido de una manera sencilla de escribir y que en todo momento mantenga un diseño legible, así que para simplificar puedes considerar Markdown como un método de escritura.
+
+De cara al usuario final no hay ninguna diferencia, por ejemplo, este tutorial acerca de cómo funciona git está escrito en Markdown, y sin embargo ves que está perfectamente formateado [[9]](https://markdown.es/). 
+
+Markdown es muy semejante a [latex](https://www.latex-project.org/). 
+
+### Lista de enlaces con tutoriales o herramientas para Markdown
+
+- [Markdown.es](https://markdown.es/)
+- [Table of content](http://ecotrust-canada.github.io/markdown-toc/)
+
+## Trabajar en un proyecto
+1) Si deseas colaborar en algún proyecto, el primer paso es dirigirte a su repositorio de GitHub. 
+2) Luego debes clonarlo, de esta forma podrás trabajar con él. 
+3) Una vez realizados todos los cambios y haber guardado el/los archivo/s, realiza un commit. Si es desde Git, recuerda añadirlo/s primero; si es desde GitHub Desktop, éste lo hará automáticamente.
+4) Haz push de los cambios. Habrás actualizado los archivos.
+5) Finalmente, dirígete de nuevo al repositorio del proyecto que quieres colaborar y presiona Pull Request.
+
+Si los moderadores del proyecto aprueban tu solicitud, el proyecto quedará actualizado.
