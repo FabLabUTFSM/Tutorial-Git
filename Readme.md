@@ -16,6 +16,7 @@
   * [Markdown](#markdown)
     + [Lista de enlaces con tutoriales o herramientas para Markdown](#lista-de-enlaces-con-tutoriales-o-herramientas-para-markdown)
   * [Troubleshooting](#Troubleshooting)  
+  * [Autores](#Autores) 
 
 ## Instalar Git 
 
@@ -226,4 +227,8 @@ Warning: LF will be replaced by CRLF
 4) Haz push de los cambios. Habrás actualizado los archivos.
 5) Finalmente, dirígete de nuevo al repositorio del proyecto que quieres colaborar y presiona New Pull Request.
 
-Si los moderadores del proyecto aprueban tu solicitud, el proyecto quedará actualizado.
+Si los moderadores del proyecto aprueban tu solicitud, el proyecto quedará actualizado. 
+
+## Autores
+
+Este tutorial fue escrito por [José Tomás Domínguez](https://github.com/josetomas), [Pablo Albornoz](https://github.com/fixmycode) y [Josué Venegas](https://github.com/st4rb00y).
