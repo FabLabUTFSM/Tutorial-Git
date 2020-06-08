@@ -15,8 +15,8 @@
     + [Comandos claves](#comandos-claves)
   * [Markdown](#markdown)
     + [Lista de enlaces con tutoriales o herramientas para Markdown](#lista-de-enlaces-con-tutoriales-o-herramientas-para-markdown)
-  * [Troubleshooting](#Troubleshooting) 
   * [Issues](#Issues) 
+  * [Troubleshooting](#Troubleshooting) 
   * [Autores](#Autores) 
 
 ## Instalar Git 
