@@ -171,6 +171,7 @@ Markdown es muy semejante a [latex](https://www.latex-project.org/).
 
 - [Markdown.es](https://markdown.es/)
 - [Table of content](http://ecotrust-canada.github.io/markdown-toc/)
+- [Visualizar MarkDown](http://tmpvar.com/markdown.html#Troubleshooting): Este enlace permite visualizar el codigo antes de hacer el push a GitHub. 
 
 ## Issues
 
