@@ -172,6 +172,12 @@ Markdown es muy semejante a [latex](https://www.latex-project.org/).
 - [Markdown.es](https://markdown.es/)
 - [Table of content](http://ecotrust-canada.github.io/markdown-toc/)
 
+## Issues
+
+En caso de tener dudas o comentarios sobre las tematicas que se tocan en el repositorio, se puede subir un Issue, con el fin de que sean contestados por quienes trabajan en el repositorio. 
+
+<img src="Imagenes/Issues.png" width=600 > 
+
 ## Troubleshooting
 - En caso de estar trabajando en distintas plataformas, Git puede presentar problemas con el comando asignado al cambio de lineas: 
 
@@ -221,11 +227,6 @@ Warning: LF will be replaced by CRLF
     fatal 'origin' does not appear to be a git repository - fatal Could not read from remote repository.
     ```
 
-## Issues
-
-En caso de tener dudas o comentarios sobre las tematicas que se tocan en el repositorio, se puede subir un Issue, con el fin de que sean contestados por quienes trabajan en el repositorio. 
-
-<img src="Imagenes/Issues.png" width=600 > 
 
 ## Colaborar en un proyecto
 1) Si deseas colaborar en algún proyecto, el primer paso es dirigirte a su repositorio de GitHub. 
