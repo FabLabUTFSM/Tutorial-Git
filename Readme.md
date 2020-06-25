@@ -68,9 +68,9 @@ Además de esto, cualquier persona puede inscribirse y ser hospedar un repositor
 
 ### Comandos clave
 
-- git config –global user.name “Example Name”: Configura el nombre de usuario de quien hace los commits. 
+- git config –-global user.name “Example Name”: Configura el nombre de usuario de quien hace los commits. 
 
-- git config –global user.email “email@example.com”: Configura la dirección email de quien hace los commits. 
+- git config –-global user.email “email@example.com”: Configura la dirección email de quien hace los commits. 
 
 - git init: Inicia git en la carpeta en la que vamos a trabajar.
 
