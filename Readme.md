@@ -114,6 +114,8 @@ Changes not staged for commit:
 
 - git merge [nombre del branch]: Une el branch con el master. 
 
+- git branch -d [nombra del branch]: Elimina un branch.
+
 
 ### Herramientas gráficas
 
