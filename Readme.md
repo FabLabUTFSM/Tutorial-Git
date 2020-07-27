@@ -118,7 +118,7 @@ Changes not staged for commit:
 
 - Fork: Git fork quiere decir que creaste una copía del repositorio principal, a tu propio perfil de github: 
 
-<img src="Images/fork.PNG" width=350  > <img src="Images/gimbal2.jpeg" width=350  >
+<img src="Images/fork.PNG" width=600  > 
 
 En la imagen podemos ver que el usuario mariverau realizo un fork desde el repositorio Bibliografia_FabLabs ubicado dentro de la organización Fab Lab UTFSM a (FabLabUTFSM/Bibliografia_FabLabs) a su repositorio local maxriverau/Bibliografia_FabLabs. (ver cuadrado negro)
 
