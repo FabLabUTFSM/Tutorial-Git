@@ -53,7 +53,7 @@ Además de esto, cualquier persona puede inscribirse y ser hospedar un repositor
 - Repositorio: Un repositorio es un espacio centralizado donde se almacena, organiza, mantiene y difunde información digital, habitualmente archivos informáticos. [[2]](https://es.wikipedia.org/wiki/Repositorio). 
 - Branch: Cuando hablamos de ramificaciones, significa que tú has tomado la rama principal de desarrollo (master) y a partir de ahí has continuado trabajando sin seguir la rama principal de desarrollo. [[4]](https://git-scm.com/book/es/v2/Ramificaciones-en-Git-%C2%BFQu%C3%A9-es-una-rama%3F)
 
-<img src="Imagenes/branch.png" width=600  > [[5]](https://www.nobledesktop.com/learn/git/git-branches)
+<img src="Images/branch.png" width=600  > [[5]](https://www.nobledesktop.com/learn/git/git-branches)
 
 - Commit: Un "commit" es la acción de guardar una actualización de tus cambios, puede hacerse en el repositorio o de forma local. Siempre va acompañado de un mensaje. [[6]](https://codigofacilito.com/articulos/commits-administrar-tu-repositorio) 
 
@@ -63,7 +63,7 @@ Además de esto, cualquier persona puede inscribirse y ser hospedar un repositor
 
 ### Fases de trabajo en Git
 
-<img src="Imagenes/commit.png" width=600  > [[7]](https://www.codepoc.io/blog/git/5287/git-quick-reference-guide)
+<img src="Images/commit.png" width=600  > [[7]](https://www.codepoc.io/blog/git/5287/git-quick-reference-guide)
 
 
 ### Comandos clave
@@ -76,7 +76,7 @@ Además de esto, cualquier persona puede inscribirse y ser hospedar un repositor
 
 - git clone [dirección https del repositorio]: Toma un repositorio online, y lo clona en una dirección local. 
 
-<img src="Imagenes/clone.png" width=600 >
+<img src="Images/clone.png" width=600 >
 
 - git status: Nos muestra la etapa en la que se encuentran las modificaciones que hemos realizado. 
 
@@ -87,7 +87,7 @@ Your branch is up to date with 'origin/master'.
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
-        new file:   Imagenes/git-lfs.PNG
+        new file:   Images/git-lfs.PNG
         modified:   Readme.md
 
 Changes not staged for commit:
@@ -135,19 +135,19 @@ Estas aplicaciones no requieren que ustedes tengan git instalados en sus computa
 
 #### SourceTree
 
-![SourceTree](Imagenes/sourcetree.png)
+![SourceTree](Images/sourcetree.png)
 
 La más completa y con la mayor cantidad de opciones para el manejo de repositorios git. Normalmente se asocia con BitBucket (un competidor de Github) pero puede administrar cualquier repositorio git sin importar dónde se hospede. [Video-tutorial de SourceTree](https://www.youtube.com/watch?v=QnkiKrruJiE)
 
 #### GitHub Desktop
 
-![GitHub Desktop](Imagenes/githubdesktop.png)
+![GitHub Desktop](Images/githubdesktop.png)
 
 Una aplicación que simplifica el uso de repositorios git, no tiene tantas opciones de configuración lo que puede hacer más sencilla la interacción. Diseñado para usarse con repositorios en GitHub ya que posee herramientas para enviar *pull requests* y otras cosas que son propias del sitio pero también puede administrar cualquier repositorio. [Video-tutorial de GitHub Desktop](https://www.youtube.com/watch?v=IW28zJc7BN0)
 
 #### GitKraken
 
-![GitKraken](Imagenes/gitkraken.png)
+![GitKraken](Images/gitkraken.png)
 
 Aplicación muy completa para el uso de git. Es una aplicación gratuita con algunas funciones no esenciales que se activan en la versión de pago. Tiene varias cosas interesantes que la hacen única como un gestor de tareas integrado, pero en general cubre todos los casos de uso propios de un administrador de repositorios y no está asociado a ningún servicio. [Video-tutorial de GitKraken](https://www.youtube.com/watch?v=z1CpcG-vs8U)
 
@@ -157,7 +157,7 @@ Aplicación muy completa para el uso de git. Es una aplicación gratuita con alg
 
 Github no soporta archivos mayores a 100 mb, esto es muy importante si se trabajará con archivos 3D (por lo general los .stl superan este tamaño). Para trabajar con archivos más grandes existe [git large file storage - git-lfs](https://git-lfs.github.com/), en la siguiente imagen se muestra el workflow con el que trabaja git-lfs y git: 
 
-<img src="Imagenes/git-lfs.PNG" width=600 > 
+<img src="Images/git-lfs.PNG" width=600 > 
  
 [[8]](https://git-lfs.github.com/)
 
@@ -189,7 +189,7 @@ Markdown es muy semejante a [latex](https://www.latex-project.org/).
 
 En caso de tener dudas o comentarios sobre las tematicas que se tocan en el repositorio, se puede subir un Issue, con el fin de que sean contestados por quienes trabajan en el repositorio. 
 
-<img src="Imagenes/Issues.png" width=600 > 
+<img src="Images/Issues.png" width=600 > 
 
 ## Troubleshooting
 - En caso de estar trabajando en distintas plataformas, Git puede presentar problemas con el comando asignado al cambio de lineas: 
@@ -246,11 +246,11 @@ Warning: LF will be replaced by CRLF
 
   Para hacer esto, vamos a nuestro perfil en donde debería existir un repositorio con la dirección [mi peril]/[nombre repositorio], hacemos click en este y hacemos click en branches: 
 
-  <img src="Imagenes/forkTroubleshoot.png" width=600 > 
+  <img src="Images/forkTroubleshoot.png" width=600 > 
   
   Una vez ahi, hacemos click compare: 
 
- <img src="Imagenes/forkTroubleshoot2.png" width=600 > 
+ <img src="Images/forkTroubleshoot2.png" width=600 > 
 
  Una vez ahí nos dirá si podemos merge los branches. En caso de que se pueda, hacemos click en el boton "Create pull request" de color verde. 
 
