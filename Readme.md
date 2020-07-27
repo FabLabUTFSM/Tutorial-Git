@@ -116,6 +116,16 @@ Changes not staged for commit:
 
 - git branch -d [nombra del branch]: Elimina un branch.
 
+- Fork: Git fork quiere decir que creaste una copía del repositorio principal, a tu propio perfil de github: 
+
+<img src="Images/fork.PNG" width=350  > <img src="Images/gimbal2.jpeg" width=350  >
+
+En la imagen podemos ver que el usuario mariverau realizo un fork desde el repositorio Bibliografia_FabLabs ubicado dentro de la organización Fab Lab UTFSM a (FabLabUTFSM/Bibliografia_FabLabs) a su repositorio local maxriverau/Bibliografia_FabLabs. (ver cuadrado negro)
+
+Al hacer un commit, este se mantendrá en su repositorio local, para enviarlo al repositorio principal, debe hacer clicl en el boton verde que dice "Create  pull request", esto le enviará al administrador del repositorio un issue para aceptar los cambios. 
+
+
+
 
 ### Herramientas gráficas
 
@@ -229,6 +239,20 @@ Warning: LF will be replaced by CRLF
     ```
     fatal 'origin' does not appear to be a git repository - fatal Could not read from remote repository.
     ```
+
+- Los cambios que hice desde la pagina GitHub aparecen en el repositorio, pero los demas usuarios no pueden verlos: 
+
+  Lo mas probable es que hayas hecho un fork, por lo que los cambios estén en tu github pero no en el repositorio general. Para enviar los cambios al repositorio principal debes hacer un pull request, y el adminsitrador lo acepte. 
+
+  Para hacer esto, vamos a nuestro perfil en donde debería existir un repositorio con la dirección [mi peril]/[nombre repositorio], hacemos click en este y hacemos click en branches: 
+
+  <img src="Imagenes/forkTroubleshoot.png" width=600 > 
+  
+  Una vez ahi, hacemos click compare: 
+
+ <img src="Imagenes/forkTroubleshoot2.png" width=600 > 
+
+ Una vez ahí nos dirá si podemos merge los branches. En caso de que se pueda, hacemos click en el boton "Create pull request" de color verde. 
 
 
 ## Colaborar en un proyecto
