@@ -252,7 +252,50 @@ Warning: LF will be replaced by CRLF
 
  <img src="Images/forkTroubleshoot2.png" width=600 > 
 
- Una vez ahí nos dirá si podemos merge los branches. En caso de que se pueda, hacemos click en el boton "Create pull request" de color verde. 
+ Una vez ahí nos dirá si podemos merge los branches. En caso de que se pueda, hacemos click en el boton "Create pull request" de color verde.
+
+ - Clone un repositorio, pero no me aparecen los branch: 
+   Cuando recien se clona un repositorio e intentas moverte del branch master a través del comando git checkout [nombre branch] arrojará los siguiente: 
+   
+   ```
+   error: pathspec 'error' did not match any file(s) known to git 
+   ```
+
+   Esto ya que los demas branches están ocultos, para solucionar esto utilizamos el comando git branch -a, que muestra todos los branches ocultos: 
+   ```$ git branch -a
+    *  master
+    remotes/origin/HEAD -> origin/master
+    remotes/origin/bluetooth-ESP32
+    remotes/origin/master
+    remotes/origin/wifi-ESP32
+    remotes/origin/wifi-ESP8266 
+    ```
+    Para ir al branch que deseamos, volvemos a utilizar git checkout, pero esta vez con la dirección que nos entrega el comando anterior: 
+
+```
+    $ git checkout origin/wifi-ESP32
+Note: switching to 'origin/wifi-ESP32'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 7be73ed comandos para wifi en ESP32 listos
+
+```
+
+    
 
 
 ## Colaborar en un proyecto
