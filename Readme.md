@@ -272,28 +272,28 @@ Warning: LF will be replaced by CRLF
     ```
     Para ir al branch que deseamos, volvemos a utilizar git checkout, pero esta vez con la dirección que nos entrega el comando anterior: 
 
-```
-    $ git checkout origin/wifi-ESP32
-Note: switching to 'origin/wifi-ESP32'.
+  ```
+  $ git checkout origin/wifi-ESP32
+  Note: switching to 'origin/wifi-ESP32'.
 
-You are in 'detached HEAD' state. You can look around, make experimental
-changes and commit them, and you can discard any commits you make in this
-state without impacting any branches by switching back to a branch.
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by switching back to a branch.
 
-If you want to create a new branch to retain commits you create, you may
-do so (now or later) by using -c with the switch command. Example:
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -c with the switch command. Example:
 
   git switch -c <new-branch-name>
 
-Or undo this operation with:
+  Or undo this operation with:
 
   git switch -
 
-Turn off this advice by setting config variable advice.detachedHead to false
+  Turn off this advice by setting config variable advice.detachedHead to false
 
-HEAD is now at 7be73ed comandos para wifi en ESP32 listos
+  HEAD is now at 7be73ed comandos para wifi en ESP32 listos
 
-```
+  ```
 
     
 
