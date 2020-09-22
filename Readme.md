@@ -18,6 +18,8 @@
   * [Issues](#Issues) 
   * [Troubleshooting](#Troubleshooting) 
   * [Autores](#Autores) 
+  
+Para contruir tablas de contenido ir a la siguiente pagina [link](https://ecotrust-canada.github.io/markdown-toc/).
 
 ## Instalar Git 
 
